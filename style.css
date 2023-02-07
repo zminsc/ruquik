@@ -8,7 +8,7 @@ body {
 }
 
 .header, .footer, .one, .two, .three, .four {
-    padding: 0 150px;
+    padding: 0 175px;
 }
 
 .header, .footer {
@@ -47,7 +47,7 @@ a {
     color: #e5e7eb;
 }
 
-.one, .two {
+.one, .two, .three {
     height: 400px;
 }
 
@@ -85,4 +85,24 @@ a {
 
 .rubik-steps .hero-secondary-text {
     color: #1f2937;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.three .standard-text {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 700;
 }
