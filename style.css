@@ -47,12 +47,15 @@ a {
     color: #e5e7eb;
 }
 
+.one, .two {
+    height: 400px;
+}
+
 .one {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    height: 400px;
 }
 
 .hero-main-text {
@@ -64,4 +67,22 @@ a {
 .hero-secondary-text, .hero-img {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.info-header-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 24px;
+}
+
+.rubik-steps {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.rubik-steps .hero-secondary-text {
+    color: #1f2937;
 }
