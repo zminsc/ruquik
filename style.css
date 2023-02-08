@@ -106,3 +106,15 @@ a {
     text-align: right;
     font-weight: 700;
 }
+
+.four {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
