@@ -61,13 +61,40 @@ a {
 }
 
 .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
     height: 400px;
+}
+
+.info-header-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .rubik-steps {
     display: flex;
     justify-content: center;
     gap: 36px;
+}
+
+.step-image {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #1f2937;
+    border-radius: 12px;
+    border-width: 4px;
+    margin-bottom: 12px;
+}
+
+.step .hero-secondary-text {
+    text-align: center;
+    font-size: 16px;
 }
 
 .three {
@@ -112,14 +139,6 @@ a {
     border-radius: 6px;
     width: 96px;
     height: 28px;
-}
-
-.info-header-text {
-    text-align: center;
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 900;
-    padding: 24px;
 }
 
 .rubik-steps .hero-secondary-text {
