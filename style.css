@@ -57,6 +57,7 @@ a {
     align-items: center;
     background-color: #1f2937;
     height: 400px;
+    gap: 150px;
 }
 
 .two {
@@ -86,7 +87,7 @@ a {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .hero-main-text {
@@ -98,6 +99,19 @@ a {
 .hero-secondary-text, .hero-img {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-img {
+    width: 400px;
+}
+
+.one .container button {
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    width: 96px;
+    height: 28px;
 }
 
 .info-header-text {
