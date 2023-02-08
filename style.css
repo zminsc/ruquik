@@ -101,6 +101,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1em;
     height: 400px;
     background-color: #e5e7eb;
 }
