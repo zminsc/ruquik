@@ -7,8 +7,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, .footer, .one, .two, .three, .four {
+.header, .one {
     padding: 0 175px;
+}
+
+.two, .three, .four {
+    padding: 0 250px;
 }
 
 .header, .footer {
