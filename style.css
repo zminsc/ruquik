@@ -7,11 +7,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, .one {
+.header, .one, .four {
     padding: 0 175px;
 }
 
-.two, .three, .four {
+.two, .three {
     padding: 0 250px;
 }
 
@@ -60,6 +60,12 @@ a {
     gap: 150px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .two {
     display: flex;
     flex-direction: column;
@@ -106,18 +112,6 @@ a {
     background-color: #e5e7eb;
 }
 
-.four {
-    display: flex;
-    align-items: center;
-    height: 300px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
@@ -159,8 +153,46 @@ a {
     font-weight: 700;
 }
 
+.four {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
 .banner {
     flex: 1;
     display: flex;
+    background-color: #3882f6;
     justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    border-radius: 6px;
+    padding: 0 75px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.banner .banner-text .standard-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.banner .banner-text .hero-secondary-text {
+    font-size: 14px;
+}
+
+.banner button {
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    width: 96px;
+    height: 28px;
 }
